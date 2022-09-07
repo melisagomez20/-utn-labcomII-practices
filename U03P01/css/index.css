@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(245,245,245);
+}
+
+h1{
+    font-size:24px;
+    color:#242424;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 20px;
+    color:#606060;
+    font-weight: 800;
+    
+}
+
+p{
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+ul{
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid rgb(47, 5, 146);
+    width: 40%;
+    list-style-type: none;
+}
+
+li{
+    font-family: monospace;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+a{
+    font-weight: bold;
+}
+
+ul a{
+    
+    color: orange;
+}
+
+li:hover{
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.patagonia{
+    color: green;
+}

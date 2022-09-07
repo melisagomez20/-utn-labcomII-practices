@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/gnu.png"/> 
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+        <form action="">
+            <table>
+            <tr>
+                <td><label for="nombre"><b>Nombre y apellido :</b></label></td>
+                <p style="color:rgb(45, 4, 167);">CONTACTO</p> 
+                <td><input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido" required></td>
+            </tr>
+            <tr>
+                <td><label for="mail"><b>Correo electrónico:</b></label></td>
+                <td><input type="email" name="mail" id="mail" placeholder="Ingrese su correo electrónico." required></td>
+            </tr>
+            <tr>
+                <td><label for="edad"><b>Edad:</b></label></td>
+                <td><input type="number" name="edad" id="edad" placeholder="Ingrese su edad." required></td>
+            </tr>
+            <tr>
+                <td><label for="color"><b>Seleccione su color favorito:</b></label></td>
+                <td><input type="color" name="colo" id="color"></td>
+            </tr>
+        </table><tr>
+                <td><label for="comentario"><b>Comentario:</b></label></td>
+                <td><textarea name="comentario" id="comentario" cols="30" rows="10" minlength="10"></textarea></td>
+            </tr>
+           
+            </table>
+            <button type="submit">Enviar</button>
+            </form>
+</body>
+</html>
